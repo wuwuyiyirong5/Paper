@@ -1,0 +1,109 @@
+\begin{thebibliography}{10}
+
+\bibitem{taylor1974navier}
+C~Taylor and P~Hood.
+\newblock Navier-stokes equation using mixed interpolation. finite element
+  method in flow problems oden editor, 1974.
+
+\bibitem{li2009performance}
+Jian Li, Yinnian He, and Zhangxin Chen.
+\newblock Performance of several stabilized finite element methods for the
+  stokes equations based on the lowest equal-order pairs.
+\newblock {\em Computing}, 86(1):37--51, 2009.
+
+\bibitem{bochev2006stabilization}
+Pavel~B Bochev, Clark~R Dohrmann, and Max~D Gunzburger.
+\newblock Stabilization of low-order mixed finite elements for the stokes
+  equations.
+\newblock {\em SIAM Journal on Numerical Analysis}, 44(1):82--101, 2006.
+
+\bibitem{danaila2014newton}
+Ionut Danaila, Raluca Moglan, Fr{\'e}d{\'e}ric Hecht, and St{\'e}phane
+  Le~Masson.
+\newblock A newton method with adaptive finite elements for solving
+  phase-change problems with natural convection.
+\newblock {\em Journal of Computational Physics}, 274:826--840, 2014.
+
+\bibitem{ebeida2009unsteady}
+Mohamed~S Ebeida, Roger~L Davis, and Roland~W Freund.
+\newblock Unsteady incompressible flow simulation using galerkin finite
+  elements with spatial/temporal adaptation.
+\newblock In {\em 47th AIAA Aerospace Sciences Meeting, Orlando, FL}, 2009.
+
+\bibitem{berrone2009space}
+Stefano Berrone and Massimo Marro.
+\newblock Space--time adaptive simulations for unsteady navier--stokes
+  problems.
+\newblock {\em Computers \& Fluids}, 38(6):1132--1144, 2009.
+
+\bibitem{zheng2010posteriori}
+Haibiao Zheng, Yanren Hou, and Feng Shi.
+\newblock A posteriori error estimates of stabilization of low-order mixed
+  finite elements for incompressible flow.
+\newblock {\em SIAM Journal on Scientific Computing}, 32(3):1346--1360, 2010.
+
+\bibitem{di2005moving}
+Yana Di, Ruo Li, Tao Tang, and Pingwen Zhang.
+\newblock Moving mesh finite element methods for the incompressible
+  navier--stokes equations.
+\newblock {\em SIAM Journal on Scientific Computing}, 26(3):1036--1056, 2005.
+
+\bibitem{vanden2009kinetic}
+David Vanden-Abeele, Deryl Snyder, Yves Detandt, and G{\'e}rard Degrez.
+\newblock A kinetic energy-preserving p1 iso p2/p1 finite-element method for
+  computing unsteady incompressible flows.
+\newblock In {\em Computational Fluid Dynamics 2006}, pages 267--272. Springer,
+  2009.
+
+\bibitem{fujima1998iso}
+Shoichi Fujima.
+\newblock Iso-p2 p1/p1/p1 domain-decomposition/finite-element method for the
+  navier-stokes equations.
+\newblock {\em Contemporary Mathematics}, 218:246--253, 1998.
+
+\bibitem{bercovier1979error}
+Michel Bercovier and Olivier Pironneau.
+\newblock Error estimates for finite element method solution of the stokes
+  problem in the primitive variables.
+\newblock {\em Numerische Mathematik}, 33(2):211--224, 1979.
+
+\bibitem{li2005multi}
+Ruo Li.
+\newblock On multi-mesh h-adaptive methods.
+\newblock {\em Journal of Scientific Computing}, 24(3):321--341, 2005.
+
+\bibitem{Winslow1966NUMERICAL}
+Alan~M Winslow.
+\newblock Numerical solution of the quasilinear poisson equation in a
+  nonuniform triangle mesh.
+\newblock {\em Journal of Computational Physics}, 135(2):128--138, 1966.
+
+\bibitem{dvinsky1991adaptive}
+Arkady~S. Dvinsky.
+\newblock {Adaptive grid generation from harmonic maps on Riemannian
+  manifolds}.
+\newblock {\em Journal of Computational Physics}, 95(2):450--476, 1991.
+
+\bibitem{cao1999anr}
+Weiming Cao, Weizhang Huang, and Robert~D Russell.
+\newblock Anr-adaptive finite element method based upon moving mesh pdes.
+\newblock {\em Journal of Computational Physics}, 149(2):221--244, 1999.
+
+\bibitem{li2001mesh}
+R.~Li, W.~Liu, T.~Tang, and P.~Zhang.
+\newblock Moving mesh finite element methods based on harmonic maps, 2001.
+
+\bibitem{popiolek2006numerical}
+TL~Popiolek and AM~Awruch.
+\newblock Numerical simulation of incompressible flows using adaptive
+  unstructured meshes and the pseudo-compressibility hypothesis.
+\newblock {\em Advances in Engineering Software}, 37(4):260--274, 2006.
+
+\bibitem{elman2005finite}
+Howard~C Elman, David~J Silvester, and Andrew~J Wathen.
+\newblock {\em Finite Elements and Fast Iterative Solvers: with Applications in
+  Incompressible Fluid Dynamics: with Applications in Incompressible Fluid
+  Dynamics}.
+\newblock Oxford University Press, 2005.
+
+\end{thebibliography}

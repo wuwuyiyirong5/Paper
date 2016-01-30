@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{Governing Equation}{}
+\BOOKMARK [1][-]{section.3}{Data Structure}{}
+\BOOKMARK [1][-]{section.4}{Finite Element Approximation}{}
+\BOOKMARK [1][-]{section.5}{Precondition strategy}{}
+\BOOKMARK [2][-]{subsection.5.1}{AMG precondition for steady stokes equations}{section.5}
+\BOOKMARK [1][-]{section.6}{Moving mesh Stategy}{}
+\BOOKMARK [2][-]{subsection.6.1}{Step 1 Obtain monitor function}{section.6}
+\BOOKMARK [2][-]{subsection.6.2}{Step 2 Get a new logical mesh}{section.6}
+\BOOKMARK [2][-]{subsection.6.3}{Step 3 Achieve mesh move direction in physical domain}{section.6}
+\BOOKMARK [2][-]{subsection.6.4}{Step 4 Eusure the incompressible constraint interpolation}{section.6}
+\BOOKMARK [1][-]{section.7}{Numerical Tests}{}
+\BOOKMARK [2][-]{subsection.7.1}{Jetting flow into a static field}{section.7}
+\BOOKMARK [2][-]{subsection.7.2}{Navier-Stokes flow over a step}{section.7}
+\BOOKMARK [2][-]{subsection.7.3}{Navier-Stokes flow over cylinder}{section.7}
+\BOOKMARK [1][-]{section.8}{Remarks}{}
