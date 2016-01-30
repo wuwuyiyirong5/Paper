@@ -117,7 +117,7 @@ citecolor=black]{hyperref}
     using h-adaptive $P2P1$ element because of simplicity, see
     (\cite{danaila2014newton},\cite{ebeida2009unsteady},
     \cite{berrone2009space}) for detail. However, if domain has some
-    corner or the solution has some singularities, we tend to use lower
+    corner or solutions have some singularities, we tend to use lower
     order approximations in engeneering computation. Adaptive method with
     stablized $P1P1$ and $P1P0$ finite element is proposed in
     \cite{zheng2010posteriori}. In \cite{di2005moving},
@@ -213,10 +213,11 @@ citecolor=black]{hyperref}
       \label{eq::NS}
     \end{equation}
 
-    The phisical domain is $\Omega$ in 2D or 3D. The initial boundary
-    value problem of the system (\ref{eq::NS}), with initial and
-    boundary conditions on $\partial \Omega = \partial \Omega_D
-    \bigcup \partial \Omega_N$:
+    The vector $\vec{u}$ is velocity, and the scalar
+    variable $p$ is pressure. The phisical domain $\Omega$ is in 2D or
+    3D. The initial boundary value problem of the system
+    (\ref{eq::NS}), with initial and boundary conditions on $\partial
+    \Omega = \partial \Omega_D \bigcup \partial \Omega_N$:
     \begin{equation}
       \begin{array}{ll}
         \vec{u} = \vec{w},& \mbox{ on } \partial \Omega_D \times [0,
@@ -230,8 +231,7 @@ citecolor=black]{hyperref}
     where $\vec{n}$ denotes the outward normal to the boundary. From
     equation (\ref{eq::bc}), we only need to give the value of
     preesure on $\Omega_N$. $\nu > 0$ is the constant kinematic
-    viscosity. The vector $\vec{u}$ is velocity, and the scalar
-    variable $p$ is pressure. 
+    viscosity.  
 
     Let $L$ represent a characteristic length scale for the domain
     $\Omega$. Let $U$ be the maximum value of velocity on the inflow,
@@ -284,8 +284,7 @@ citecolor=black]{hyperref}
    So a macro element(pressure) corresponds to four velocity elements. 
    By traversing all pressure elements one time, we can acquire the $1-1$
    index between elements of velocity and pressure based on the
-   hierachy tree structure. See algorithm
-   \ref{alg::index}.  
+   hierachy tree structure as algorithm \ref{alg::index} shown.  
    \begin{algorithm}
      \caption{Make index between velocity elements and pressure elements}
      \begin{algorithmic}[1]
@@ -342,16 +341,16 @@ citecolor=black]{hyperref}
      & & \forall q \in L_2(\Omega). \notag
    \end{eqnarray}
    Here $\nabla \vec{u} : \nabla \vec{v}$ represents the componentwise
-   scalar product, i. e., in 2D, $\nabla v_x \cdot \nabla u_x + \nabla
-   v_y \cdot \nabla u_y$.
+   scalar product, $\nabla v_x \cdot \nabla u_x + \nabla
+   v_y \cdot \nabla u_y$ in 2D.
 
-   Assume $\tau_h$ is a triangulation of the domain $\Omega$ for
+   Assume $\tau_h$ is a triangulation of domain $\Omega$ for
    pressure mesh with mesh parameter $h = max_{T \in \tau_h} diam(T)$.
    While $\tau_{\frac{1}{2}h}$ is the triangulation for velocity mesh.
-   Two finite element spaces $X_E^h$ and $P_h$ are seperatly based on
+   Two finite element spaces $X_E^h$ and $P^h$ are seperatly based on
    $\tau_{\frac{1}{2}h}$ and $\tau_h$ such that
    \begin{equation}
-     X_E^h \subset \mathcal{H}_E, \quad P_h \subset L_2(\Omega) 
+     X_E^h \subset \mathcal{H}_E, \quad P^h \subset L_2(\Omega) 
      \notag 
    \end{equation}
    
@@ -373,8 +372,9 @@ citecolor=black]{hyperref}
    \end{equation}
 
    Let $\{\phi_j \}_{j = 1}^n$ and $\{\psi_k\}_{k = 1}^m$ be linear basis
-   functions for velocity and pressure. In temporal direction, explicit
-   Euler scheme is used. Then $u_h, v_h, p_h$ can be written as follows.
+   functions for velocity and pressure. Nonlinear term $\vec{u}_h
+   \cdot \nabla \vec{u}_h$ is explicitly treated. Then $u_h, v_h, p_h$
+   can be written as follows.
    \begin{equation}
      u_h = \sum_{j = 1}^n u_j \phi_j, \quad v_h = \sum_{j = 1}^n v_j
      \phi_j, \quad p_h = \sum_{k = 1}^m p_k \psi_k 
