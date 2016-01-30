@@ -80,7 +80,7 @@ citecolor=black]{hyperref}
 % ----------------------------------------------------------------------------------------
 \begin{abstract}
     In this paper, we use a $4P1-P1$ finite element pair to solve
-    the time-dependent Navier Stokes equations in  2D. This 
+    the time-dependent Navier Stokes equations in 2D. This 
     $4P1-P1$ element pair is based on the data structure of hierarchy
     geometry tree. Two-layer nested meshes are used, that velocity
     mesh can be obtained by globally refining pressure mesh. Based on
@@ -120,7 +120,7 @@ citecolor=black]{hyperref}
     corner or the solution has some singularities, we tend to use lower
     order approximations in engeneering computation. Adaptive method with
     stablized $P1P1$ and $P1P0$ finite element is proposed in
-    \cite{zheng2010posteriori}. In\cite{di2005moving},
+    \cite{zheng2010posteriori}. In \cite{di2005moving},
     dual element $P1P0$ is used for moving mesh method. Whereas the
     unstable finite element pairs applied to h-adaptive method have some
     technical difficulties. So the naturally stable $P1isoP2P1$
@@ -805,7 +805,8 @@ citecolor=black]{hyperref}
        other boundary of $\Omega$. 
        
        We select (\ref{eq::monitor_vorticity}) as monitor in our
-       moving strategy. As we known, when a thin flow jets into static
+       moving strategy. Parameter $\alpha = 2.0, \beta = 2.0$ performs well.
+       As we known, when a thin flow jets into static
        field, two symmetric vortexes appears along the jetting flow.
        For improving the computional precision, it requires more grids
        around the flow. From Figure \ref{fig::jetting_flow_mesh}, mesh 
@@ -955,7 +956,7 @@ citecolor=black]{hyperref}
       \ref{fig::step_flow_05s}, \ref{fig::step_flow_1s} and
       \ref{fig::step_flow_2s} show moving mesh and contour of
       vorticity at $t = 0.5s, t = 1s \text{, and } t = 2s$. It is
-      observed that our moving mesh is consistent with the contour of
+      observed that our moving mesh is consistent with the structure of
       vorticity.
 
       Pressure contour and velocity streamline at $t = 2s$ are shown
@@ -1034,8 +1035,8 @@ citecolor=black]{hyperref}
       mesh can efficiently capture the velocity structure and our mesh
       quality is better than \cite{cao1999anr}.
       
-      Figure \ref{fig::cylinder_mesh_t15s} shows the velocity contour
-      and mesh when t = 15s. 
+      Figure \ref{fig::cylinder_mesh_t23s} shows the velocity contour
+      and mesh when t = 23s. 
 
       \begin{figure}[!htbp]
         \centering

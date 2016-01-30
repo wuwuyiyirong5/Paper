@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.11.7)  30 JAN 2016 14:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.11.7)  30 JAN 2016 20:09
 entering extended mode
  %&-line parsing enabled.
 **movingNS.tex
@@ -677,98 +677,94 @@ File: picture/jet_flow_data/mesh_t12s.eps Graphic file (type eps)
 <picture/jet_flow_data/mesh_t12s.eps>
 File: picture/jet_flow_data/contour_t12s.eps Graphic file (type eps)
  <picture/jet_flow_data/contour_t12s.eps>
-Overfull \hbox (5.78748pt too wide) in paragraph at lines 817--820
+Overfull \hbox (5.78748pt too wide) in paragraph at lines 818--821
  [] 
  []
 
 
-Overfull \hbox (5.78748pt too wide) in paragraph at lines 817--820
+Overfull \hbox (5.78748pt too wide) in paragraph at lines 818--821
  [] 
  []
 
 
-Overfull \hbox (5.78748pt too wide) in paragraph at lines 817--820
+Overfull \hbox (5.78748pt too wide) in paragraph at lines 818--821
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 39.31842pt on input line 825.
+LaTeX Warning: Float too large for page by 39.31842pt on input line 826.
 
 [10] [11]
 File: picture/step_flow_data/initial_mesh40_001.eps Graphic file (type eps)
  <picture/step_flow_data/initial_mesh40_001.eps>
-Overfull \hbox (32.37595pt too wide) in paragraph at lines 966--967
+Overfull \hbox (32.37595pt too wide) in paragraph at lines 967--968
  [] 
  []
 
 File: picture/step_flow_data/mesh_t_05.eps Graphic file (type eps)
 <picture/step_flow_data/mesh_t_05.eps>
-Overfull \hbox (27.6319pt too wide) in paragraph at lines 974--976
+Overfull \hbox (27.6319pt too wide) in paragraph at lines 975--977
  [][] 
  []
 
 File: picture/step_flow_data/mesh_t_1s.eps Graphic file (type eps)
 <picture/step_flow_data/mesh_t_1s.eps>
-Overfull \hbox (27.6319pt too wide) in paragraph at lines 982--984
+Overfull \hbox (27.6319pt too wide) in paragraph at lines 983--985
  [][] 
  []
 
 File: picture/step_flow_data/mesh_t_1_5s.eps Graphic file (type eps)
 <picture/step_flow_data/mesh_t_1_5s.eps>
-Overfull \hbox (27.6319pt too wide) in paragraph at lines 990--992
+Overfull \hbox (27.6319pt too wide) in paragraph at lines 991--993
  [][] 
  []
 
 File: picture/step_flow_data/mesh_t_2s.eps Graphic file (type eps)
 <picture/step_flow_data/mesh_t_2s.eps>
-Overfull \hbox (27.6319pt too wide) in paragraph at lines 998--1000
+Overfull \hbox (27.6319pt too wide) in paragraph at lines 999--1001
  [][] 
  []
 
 File: picture/step_flow_data/contour_streamline_t_2s.eps Graphic file (type eps
 )
 <picture/step_flow_data/contour_streamline_t_2s.eps>
-Overfull \hbox (27.06711pt too wide) in paragraph at lines 1006--1008
+Overfull \hbox (27.06711pt too wide) in paragraph at lines 1007--1009
  [][] 
  []
 
 [12] [13] [14]
-
-LaTeX Warning: Reference `fig::cylinder_mesh_t15s' on page 15 undefined on inpu
-t line 1037.
-
 File: picture/obstacle_flow_data/initial_mesh.eps Graphic file (type eps)
-<picture/obstacle_flow_data/initial_mesh.eps>
-Overfull \hbox (18.00487pt too wide) in paragraph at lines 1042--1044
+ <picture/obstacle_flow_data/initial_mesh.eps>
+Overfull \hbox (18.00487pt too wide) in paragraph at lines 1043--1045
  [][] 
  []
 
 File: picture/obstacle_flow_data/mesh_t_1s.eps Graphic file (type eps)
 <picture/obstacle_flow_data/mesh_t_1s.eps>
-Overfull \hbox (18.00487pt too wide) in paragraph at lines 1050--1052
+Overfull \hbox (18.00487pt too wide) in paragraph at lines 1051--1053
  [][] 
  []
 
 File: picture/obstacle_flow_data/mesh_t_2s.eps Graphic file (type eps)
 <picture/obstacle_flow_data/mesh_t_2s.eps>
-Overfull \hbox (18.00487pt too wide) in paragraph at lines 1058--1060
+Overfull \hbox (18.00487pt too wide) in paragraph at lines 1059--1061
  [][] 
  []
 
 File: picture/obstacle_flow_data/mesh_t_4s.eps Graphic file (type eps)
 <picture/obstacle_flow_data/mesh_t_4s.eps>
-Overfull \hbox (18.00487pt too wide) in paragraph at lines 1066--1068
+Overfull \hbox (18.00487pt too wide) in paragraph at lines 1067--1069
  [][] 
  []
 
 File: picture/obstacle_flow_data/mesh_t_23s.eps Graphic file (type eps)
 <picture/obstacle_flow_data/mesh_t_23s.eps>
-Overfull \hbox (18.00487pt too wide) in paragraph at lines 1082--1084
+Overfull \hbox (18.00487pt too wide) in paragraph at lines 1083--1085
  [][] 
  []
 
 
-Overfull \hbox (2.29333pt too wide) in paragraph at lines 1094--1099
+Overfull \hbox (2.29333pt too wide) in paragraph at lines 1095--1100
 \OT1/cmr/m/n/10.95 In this pa-per, un-steady Navier-Stokes equa-tions have been
  nu-mer-i-cally solved
  []
@@ -779,18 +775,14 @@ Underfull \hbox (badness 3058) in paragraph at lines 97--101
 s in En-gi-neer-ing Soft-ware\OT1/cmr/m/n/10.95 ,
  []
 
-) [19] (./movingNS.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+) [19] (./movingNS.aux) ) 
 Here is how much of TeX's memory you used:
- 15344 strings out of 493849
- 283441 string characters out of 1152846
+ 15343 strings out of 493849
+ 283416 string characters out of 1152846
  361904 words of memory out of 3000000
- 18289 multiletter control sequences out of 15000+50000
+ 18288 multiletter control sequences out of 15000+50000
  12524 words of font info for 45 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  56i,18n,55p,668b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on movingNS.dvi (19 pages, 116764 bytes).
+Output written on movingNS.dvi (19 pages, 117096 bytes).
