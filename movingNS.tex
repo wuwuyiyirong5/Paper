@@ -199,7 +199,7 @@ citecolor=black]{hyperref}
     
 \section{Governing Equation}
 
-    Follow \cite{elman2005finite} and \cite{popiolek2006numerical}, we
+    Follow \cite{popiolek2006numerical} and \cite{elman2005finite}, we
     give nondimentional incompressible Navier-Stokes equations as
     follows:
     
@@ -357,7 +357,7 @@ citecolor=black]{hyperref}
    
    So (\ref{eq::generalweak_momentum}) and (\ref{eq::generalweak_mass})
     can be written as following : Find
-   $(\vec{u}_h, p_h) \in X_E^h \times P_h$ such that
+   $(\vec{u}_h, p_h) \in X_E^h \times P^h$ such that
    \begin{equation}
      \begin{aligned}
        &\int_{\Omega}\frac{\partial \vec{u}_h}{\partial t} \cdot \vec{v}_h
@@ -656,7 +656,7 @@ citecolor=black]{hyperref}
         \label{eq::monitor_gradient}
       \end{equation}
       where $\vec{u}$ is velocity variable. This monitor function is
-      used for problems which solutions have large gradient, such as
+      used for problems which solutions have large gradients, such as
       colliding flow which are used for accuracy test for our
       algorithm.
    \subsection{Step 2 Get a new logical mesh}
@@ -758,14 +758,14 @@ citecolor=black]{hyperref}
       different from pressure variable in (\ref{eq::NS}). 
 
       Weak form of (\ref{eq::continous_update}) is : find $(\vec{u}_h,
-      p_h) \in V_h \times P_h$ such that 
+      p_h) \in X_E^h \times P^h$ such that 
       \begin{eqnarray}
         \begin{aligned}
           \left( \partial_{\tau} \vec{u}_h - \nabla_{\vec{x}}\vec{u}_h
             \cdot \delta \vec{x}, \vec{v}_h \right) & = & \left( p_h, \nabla
-            \vec{v}_h \right). \quad \forall \vec{v}_h \in V_h \\
+            \vec{v}_h \right). \quad \forall \vec{v}_h \in X_E^h \\
           \left( \nabla_{\vec{x}} \cdot \vec{u}, q_h\right) & = & 0. \quad \forall
-          q_h \in P_h 
+          q_h \in P^h
         \end{aligned}
         \label{eq::discreted_update}
       \end{eqnarray}
@@ -805,8 +805,8 @@ citecolor=black]{hyperref}
        other boundary of $\Omega$. 
        
        We select (\ref{eq::monitor_vorticity}) as monitor in our
-       moving strategy. Parameter $\alpha = 2.0, \beta = 2.0$ performs well.
-       As we known, when a thin flow jets into static
+       moving strategy. Parameters $\alpha = 2.0, \beta = 2.0$ perform
+       well. As we known, when a thin flow jets into static
        field, two symmetric vortexes appears along the jetting flow.
        For improving the computional precision, it requires more grids
        around the flow. From Figure \ref{fig::jetting_flow_mesh}, mesh 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.11.7)  30 JAN 2016 20:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.11.7)  30 JAN 2016 21:03
 entering extended mode
  %&-line parsing enabled.
 **movingNS.tex
@@ -779,10 +779,10 @@ s in En-gi-neer-ing Soft-ware\OT1/cmr/m/n/10.95 ,
 Here is how much of TeX's memory you used:
  15343 strings out of 493849
  283416 string characters out of 1152846
- 361904 words of memory out of 3000000
+ 362904 words of memory out of 3000000
  18288 multiletter control sequences out of 15000+50000
  12524 words of font info for 45 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  56i,18n,55p,668b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on movingNS.dvi (19 pages, 117096 bytes).
+Output written on movingNS.dvi (19 pages, 117168 bytes).
