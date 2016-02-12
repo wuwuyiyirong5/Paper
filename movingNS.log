@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.11.7)  30 JAN 2016 21:55
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.11.7)  12 FEB 2016 18:48
 entering extended mode
  %&-line parsing enabled.
 **movingNS.tex
@@ -618,21 +618,21 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
  (./movingNS.aux)
 \openout1 = `movingNS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-Package hyperref Info: Link coloring ON on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+Package hyperref Info: Link coloring ON on input line 60.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -642,8 +642,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count149
 )
-LaTeX Info: Redefining \ref on input line 59.
-LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
  (./movingNS.out)
 (./movingNS.out)
 \@outlinefile=\write4
@@ -653,123 +653,103 @@ LaTeX Info: Redefining \pageref on input line 59.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 59.
+LaTeX Info: Redefining \subref on input line 60.
 Package caption Info: End \AtBeginDocument code.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
+Underfull \hbox (badness 10000) in paragraph at lines 94--98
 
  []
 
 [1
 
 ] [2]
-Overfull \hbox (14.59998pt too wide) in paragraph at lines 260--280
+Overfull \hbox (14.59998pt too wide) in paragraph at lines 261--281
 [][][][][][] 
  []
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 289.
+put line 290.
 [3] [4] [5] [6] [7] [8] [9]
-File: picture/jet_flow_data/streamline_t12s.eps Graphic file (type eps)
- <picture/jet_flow_data/streamline_t12s.eps>
 File: picture/jet_flow_data/mesh_t12s.eps Graphic file (type eps)
-
-<picture/jet_flow_data/mesh_t12s.eps>
+ <picture/jet_flow_data/mesh_t12s.eps>
 File: picture/jet_flow_data/contour_t12s.eps Graphic file (type eps)
- <picture/jet_flow_data/contour_t12s.eps>
-Overfull \hbox (5.78748pt too wide) in paragraph at lines 818--821
+
+<picture/jet_flow_data/contour_t12s.eps>
+Overfull \hbox (5.78748pt too wide) in paragraph at lines 822--824
  [] 
  []
 
 
-Overfull \hbox (5.78748pt too wide) in paragraph at lines 818--821
+Overfull \hbox (5.78748pt too wide) in paragraph at lines 822--824
+ [] 
+ []
+
+File: picture/jet_flow_data/mesh_t27s.eps Graphic file (type eps)
+<picture/jet_flow_data/mesh_t27s.eps>
+File: picture/jet_flow_data/contour_t27s.eps Graphic file (type eps)
+ <picture/jet_flow_data/contour_t27s.eps>
+Overfull \hbox (5.78748pt too wide) in paragraph at lines 831--833
  [] 
  []
 
 
-Overfull \hbox (5.78748pt too wide) in paragraph at lines 818--821
+Overfull \hbox (5.78748pt too wide) in paragraph at lines 831--833
  [] 
  []
 
-
-LaTeX Warning: Float too large for page by 39.31842pt on input line 826.
-
-[10] [11]
+[10] [11] [12]
 File: picture/step_flow_data/initial_mesh40_001.eps Graphic file (type eps)
  <picture/step_flow_data/initial_mesh40_001.eps>
-Overfull \hbox (32.37595pt too wide) in paragraph at lines 967--968
+Overfull \hbox (32.37595pt too wide) in paragraph at lines 977--978
  [] 
  []
 
 File: picture/step_flow_data/mesh_t_05.eps Graphic file (type eps)
 <picture/step_flow_data/mesh_t_05.eps>
-Overfull \hbox (27.6319pt too wide) in paragraph at lines 975--977
+Overfull \hbox (27.6319pt too wide) in paragraph at lines 985--987
  [][] 
  []
 
 File: picture/step_flow_data/mesh_t_1s.eps Graphic file (type eps)
 <picture/step_flow_data/mesh_t_1s.eps>
-Overfull \hbox (27.6319pt too wide) in paragraph at lines 983--985
+Overfull \hbox (27.6319pt too wide) in paragraph at lines 993--995
  [][] 
  []
 
 File: picture/step_flow_data/mesh_t_1_5s.eps Graphic file (type eps)
 <picture/step_flow_data/mesh_t_1_5s.eps>
-Overfull \hbox (27.6319pt too wide) in paragraph at lines 991--993
+Overfull \hbox (27.6319pt too wide) in paragraph at lines 1001--1003
  [][] 
  []
 
 File: picture/step_flow_data/mesh_t_2s.eps Graphic file (type eps)
 <picture/step_flow_data/mesh_t_2s.eps>
-Overfull \hbox (27.6319pt too wide) in paragraph at lines 999--1001
+Overfull \hbox (27.6319pt too wide) in paragraph at lines 1009--1011
  [][] 
  []
 
 File: picture/step_flow_data/contour_streamline_t_2s.eps Graphic file (type eps
 )
 <picture/step_flow_data/contour_streamline_t_2s.eps>
-Overfull \hbox (27.06711pt too wide) in paragraph at lines 1007--1009
+Overfull \hbox (27.06711pt too wide) in paragraph at lines 1017--1019
  [][] 
  []
 
-[12] [13] [14]
+[13] [14] [15]
 File: picture/obstacle_flow_data/initial_mesh.eps Graphic file (type eps)
  <picture/obstacle_flow_data/initial_mesh.eps>
-Overfull \hbox (18.00487pt too wide) in paragraph at lines 1043--1045
- [][] 
- []
+File: picture/obstacle_flow_data/mesh_t_24_5s.eps Graphic file (type eps)
 
-File: picture/obstacle_flow_data/mesh_t_1s.eps Graphic file (type eps)
-<picture/obstacle_flow_data/mesh_t_1s.eps>
-Overfull \hbox (18.00487pt too wide) in paragraph at lines 1051--1053
- [][] 
- []
-
-File: picture/obstacle_flow_data/mesh_t_2s.eps Graphic file (type eps)
-<picture/obstacle_flow_data/mesh_t_2s.eps>
-Overfull \hbox (18.00487pt too wide) in paragraph at lines 1059--1061
- [][] 
- []
-
-File: picture/obstacle_flow_data/mesh_t_4s.eps Graphic file (type eps)
-<picture/obstacle_flow_data/mesh_t_4s.eps>
-Overfull \hbox (18.00487pt too wide) in paragraph at lines 1067--1069
- [][] 
- []
-
+<picture/obstacle_flow_data/mesh_t_24_5s.eps>
 File: picture/obstacle_flow_data/mesh_t_23s.eps Graphic file (type eps)
+
 <picture/obstacle_flow_data/mesh_t_23s.eps>
-Overfull \hbox (18.00487pt too wide) in paragraph at lines 1083--1085
- [][] 
- []
-
-
-Overfull \hbox (2.29333pt too wide) in paragraph at lines 1095--1100
+Overfull \hbox (2.29333pt too wide) in paragraph at lines 1107--1112
 \OT1/cmr/m/n/10.95 In this pa-per, un-steady Navier-Stokes equa-tions have been
  nu-mer-i-cally solved
  []
 
-[15] [16] [17] (./movingNS.bbl [18]
+[16] [17] (./movingNS.bbl [18]
 Underfull \hbox (badness 3058) in paragraph at lines 97--101
 \OT1/cmr/m/n/10.95 compressibility hy-poth-e-sis.  \OT1/cmr/m/it/10.95 Ad-vance
 s in En-gi-neer-ing Soft-ware\OT1/cmr/m/n/10.95 ,
@@ -777,12 +757,12 @@ s in En-gi-neer-ing Soft-ware\OT1/cmr/m/n/10.95 ,
 
 ) [19] (./movingNS.aux) ) 
 Here is how much of TeX's memory you used:
- 15343 strings out of 493849
- 283416 string characters out of 1152846
- 361904 words of memory out of 3000000
- 18288 multiletter control sequences out of 15000+50000
+ 15342 strings out of 493849
+ 283363 string characters out of 1152846
+ 361862 words of memory out of 3000000
+ 18286 multiletter control sequences out of 15000+50000
  12524 words of font info for 45 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 56i,18n,55p,668b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,18n,55p,662b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on movingNS.dvi (19 pages, 117192 bytes).
+Output written on movingNS.dvi (19 pages, 117092 bytes).

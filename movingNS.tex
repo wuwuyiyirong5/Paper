@@ -33,6 +33,7 @@ citecolor=black]{hyperref}
 \usepackage{pgflibraryarrows}
 \usepackage{pgflibrarysnakes}
 \usepackage{subfig}
+%\usepackage{float}
 \usepackage{booktabs} 
 \newtheorem{remark}{Remark}[section]
 % \setlength\parindent{0pt} % Removes all indentation from paragraphs
@@ -809,20 +810,29 @@ citecolor=black]{hyperref}
        well. As we known, when a thin flow jets into static
        field, two symmetric vortexes appears along the jetting flow.
        For improving the computional precision, it requires more grids
-       around the flow. From Figure \ref{fig::jetting_flow_mesh}, mesh 
+       around the flow. From Figure \ref{fig::jetting_flow_mesht12s}, mesh 
        is concentrated around the vorticity contour with large
-       velocity gradient.
+       velocity gradient. As time evolving, fluid instability will apper as
+       Figure \ref{fig::jetting_flow_mesht27s} shown which is
+       consistent with phisical phenomena.
 
        \begin{figure}[!htbp]
          \begin{center}
-             \includegraphics[width = 0.53\textwidth, angle = -90]{picture/jet_flow_data/streamline_t12s.eps}
+%             \includegraphics[width = 0.53\textwidth, angle = -90]{picture/jet_flow_data/streamline_t12s.eps}
              \includegraphics[width = 0.53\textwidth, angle = -90]{picture/jet_flow_data/mesh_t12s.eps}
              \includegraphics[width = 0.53\textwidth, angle = -90]{picture/jet_flow_data/contour_t12s.eps}
         \end{center}
-        \caption{\small Jetting flow: top: velocity streamline,
-          center: mesh,  bottom: vorticity contour at t = 12s.}
+        \caption{\small Jetting flow: top: mesh, bottom: vorticity contour at t = 12s.}
+        \label{fig::jetting_flow_mesht12s}
+       \end{figure}
 
-        \label{fig::jetting_flow_mesh}
+       \begin{figure}[!htbp]
+         \begin{center}
+             \includegraphics[width = 0.53\textwidth, angle = -90]{picture/jet_flow_data/mesh_t27s.eps}
+             \includegraphics[width = 0.53\textwidth, angle = -90]{picture/jet_flow_data/contour_t27s.eps}
+        \end{center}
+        \caption{\small Jetting flow: top: mesh, bottom: vorticity contour at t = 27s.}
+        \label{fig::jetting_flow_mesht27s}
        \end{figure}
        
        
@@ -1016,7 +1026,7 @@ citecolor=black]{hyperref}
       along a retangular channel. In \cite{cao1999anr}, the authors
       apply moving finite element method to this problem. The center
       of cylinder is $(0, 0)$ and radius is $r = 0.3$. Let viscosity
-      be $\nu = 0.001$ and domain $\Omega = [-1, 5] \times [-1, 1]$. 
+      $nu = 0.003$ and domain $\Omega = [-1, 5] \times [-1, 1]$. 
       Poiseuille flow $u = 1 - y^2, v = 0$ is imposed on inflow
       boundary $x = -1$. $u = v = 0$ is imposed on the top and bottom
       of the channel. Outflow boundary $x = 5$ is natrual
@@ -1028,63 +1038,65 @@ citecolor=black]{hyperref}
       monitor in our moving strategy. The parameters $\alpha$ and
       $\beta$ are $1.0$, $2.0$. 
 
-      The evolution of mesh, pressure contour and velocity streamline 
-      are illustrated in Figure \ref{fig::cylinder_mesh_t1s},
-      \ref{fig::cylinder_mesh_t2s},
-      \ref{fig::cylinder_mesh_t4s}. It can be discoverd that moving
-      mesh can efficiently capture the velocity structure and our mesh
-      quality is better than \cite{cao1999anr}.
+      The evolution of moving mesh and vorticity streamline  
+      are illustrated in Figure \ref{fig::cylinder_initial_mesh} and
+      Figure \ref{fig::cylinder_mesh_t24_5s}. It
+      can be discoverd that our moving mesh can efficiently capture the
+      vorticity structure and our mesh quality is better than \cite{cao1999anr}.
       
-      Figure \ref{fig::cylinder_mesh_t23s} shows the velocity contour
-      and mesh when t = 23s. 
-
+      When we change the value of viscosity $\nu = 0.001$, the
+      structure of moving mesh and vorticity contour are not so
+      obvious as viscosity $\nu = 0.003$ as shown in 
+      Figure \ref{fig::cylinder_mesh_t23s}. 
+      
       \begin{figure}[!htbp]
         \centering
-        \includegraphics[width = 0.7\textwidth, angle = -90]{picture/obstacle_flow_data/initial_mesh.eps}
+        \includegraphics[width = 0.6\textwidth, angle = -90]{picture/obstacle_flow_data/initial_mesh.eps}
         \caption{\small Up: uniform mesh; bottom: initial
-          moving mesh.}
+          moving mesh, viscosity $\nu = 0.003$.}
         \label{fig::cylinder_initial_mesh}
       \end{figure}
 
-      \begin{figure}[!htbp]
-        \centering
-        \includegraphics[width = 0.7\textwidth, angle = -90]{picture/obstacle_flow_data/mesh_t_1s.eps}
-        \caption{\small Up: moving mesh; bottom: vorticity
-          contour at $t = 1s$.}
-        \label{fig::cylinder_mesh_t1s}
-      \end{figure}
-
-     \begin{figure}[!htbp]
-        \centering
-        \includegraphics[width = 0.7\textwidth, angle = -90]{picture/obstacle_flow_data/mesh_t_2s.eps}
-        \caption{\small Up: moving mesh; bottom: vorticity contour at $t
-          = 2s$.}
-        \label{fig::cylinder_mesh_t2s}
-      \end{figure}
-
-     \begin{figure}[!htbp]
-        \centering
-        \includegraphics[width = 0.7\textwidth, angle = -90]{picture/obstacle_flow_data/mesh_t_4s.eps}
-        \caption{\small Up: moving mesh; bottom: velocity contour at
-          $t = 4s$.}
-        \label{fig::cylinder_mesh_t4s}
-      \end{figure}
-
-    % \begin{figure}[!htbp]
+    %   \begin{figure}[!htbp]
     %     \centering
-    %     \includegraphics[width = 0.7\textwidth, angle = -90]{picture/obstacle_flow_data/mesh_t_15s.eps}
-    %     \caption{\small Up: moving mesh; bottom: velocity contour at
-    %       $t = 15s$.}
-    %     \label{fig::cylinder_mesh_t15s}
+    %     \includegraphics[width = 0.7\textwidth, angle = -90]{picture/obstacle_flow_data/mesh_t_1s.eps}
+    %     \caption{\small Up: moving mesh; bottom: vorticity
+    %       contour at $t = 1s$.}
+    %     \label{fig::cylinder_mesh_t1s}
     %   \end{figure}
+
+    %  \begin{figure}[!htbp]
+    %     \centering
+    %     \includegraphics[width = 0.7\textwidth, angle = -90]{picture/obstacle_flow_data/mesh_t_2s.eps}
+    %     \caption{\small Up: moving mesh; bottom: vorticity contour at $t
+    %       = 2s$.}
+    %     \label{fig::cylinder_mesh_t2s}
+    %  \end{figure}
+
+    %  \begin{figure}[!htbp]
+    %     \centering
+    %     \includegraphics[width = 0.7\textwidth, angle = -90]{picture/obstacle_flow_data/mesh_t_4s.eps}
+    %     \caption{\small Up: moving mesh; bottom: vorticity contour at
+    %       $t = 4s$.}
+    %     \label{fig::cylinder_mesh_t4s}
+    % \end{figure}
+
+    \begin{figure}[!htbp]
+      \begin{center}
+        \includegraphics[width = 0.6\textwidth, angle = -90]{picture/obstacle_flow_data/mesh_t_24_5s.eps}
+      \end{center}  
+      \caption{\small Up: moving mesh; bottom: vorticity contour at
+        $t = 24.5s$, viscosity $\nu = 0.003$.}
+      \label{fig::cylinder_mesh_t24_5s}
+    \end{figure}
 
     \begin{figure}[!htbp]
         \centering
-        \includegraphics[width = 0.7\textwidth, angle = -90]{picture/obstacle_flow_data/mesh_t_23s.eps}
-        \caption{\small Up: moving mesh; bottom: velocity contour at
-          $t = 23s$.}
+        \includegraphics[width = 0.6\textwidth, angle = -90]{picture/obstacle_flow_data/mesh_t_23s.eps}
+        \caption{\small Up: moving mesh; bottom: vorticity contour at
+          $t = 23s$, viscosity $\nu = 0.001$.}
         \label{fig::cylinder_mesh_t23s}
-      \end{figure}
+    \end{figure}
 
    % ----------------------------------------------------------------------------------------
    %	SECTION 4
