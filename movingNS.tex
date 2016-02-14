@@ -800,10 +800,10 @@ citecolor=black]{hyperref}
        static flow field.  
        Our computional domain is $\Omega = [0, 12] \times [-3, 3]$ and
        viscosity is $\nu = 0.0005$.
-       Natural outflow boundary is imposed on $x = 12$, while inflow
-       boundary condition $u_x = 1 - 100 y^2, u_y = 0$ on $x = 0, y
-       \in [-0.1, 0.1]$. No-slip boundary condition is setted on
-       other boundary of $\Omega$. 
+       Natural outflow boundary condition is imposed on $x = 12$,
+       while inflow boundary condition $u_x = 1 - 100 y^2, u_y = 0$ on
+       $x = 0, y \in [-0.1, 0.1]$. No-slip boundary condition is
+       setted on other boundary of $\Omega$. 
        
        We select (\ref{eq::monitor_vorticity}) as monitor in our
        moving strategy. Parameters $\alpha = 2.0, \beta = 2.0$ perform
@@ -812,7 +812,7 @@ citecolor=black]{hyperref}
        For improving the computional precision, it requires more grids
        around the flow. From Figure \ref{fig::jetting_flow_mesht12s}, mesh 
        is concentrated around the vorticity contour with large
-       velocity gradient. As time evolving, fluid instability will apper as
+       velocity gradient. As time evolving, fluid instability will apper
        Figure \ref{fig::jetting_flow_mesht27s} shown which is
        consistent with phisical phenomena.
 
@@ -1020,7 +1020,7 @@ citecolor=black]{hyperref}
         \label{fig::step_flow_contour_streamline_2s}
       \end{figure}
 
-   \subsection{Navier-Stokes flow over cylinder}
+   \subsection{Flow over cylinder}
    
       This example models the development of flow over an cylinder
       along a retangular channel. In \cite{cao1999anr}, the authors
@@ -1046,7 +1046,7 @@ citecolor=black]{hyperref}
       
       When we change the value of viscosity $\nu = 0.001$, the
       structure of moving mesh and vorticity contour are not so
-      obvious as viscosity $\nu = 0.003$ as shown in 
+      obvious as viscosity $\nu = 0.003$, as shown in 
       Figure \ref{fig::cylinder_mesh_t23s}. 
       
       \begin{figure}[!htbp]
