@@ -1,4 +1,5 @@
 \relax 
+\newlabel{FirstPage}{{}{1}}
 \ifx\hyper@anchor\@undefined
 \global \let \oldcontentsline\contentsline
 \gdef \contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
@@ -12,21 +13,22 @@
 \fi
 
 \providecommand*\HyPL@Entry[1]{}
-\citation{taylor1974navier}
 \citation{li2009performance}
 \citation{bochev2006stabilization}
+\citation{popiolek2006numerical}
 \citation{danaila2014newton}
 \citation{ebeida2009unsteady}
 \citation{berrone2009space}
 \citation{zheng2010posteriori}
 \citation{di2005moving}
-\citation{vanden2009kinetic}
 \citation{fujima1998iso}
 \citation{bercovier1979error}
+\citation{vanden2009kinetic}
 \citation{bercovier1979error}
+\citation{li2005multi}
 \HyPL@Entry{0<</S/D>>}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
-\citation{li2005multi}
+\newlabel{sec1}{{1}{1}{Introduction\relax }{section.1}{}}
 \citation{Winslow1966NUMERICAL}
 \citation{dvinsky1991adaptive}
 \citation{cao1999anr}
@@ -34,105 +36,107 @@
 \citation{li2001mesh}
 \citation{di2005moving}
 \citation{di2005moving}
-\citation{popiolek2006numerical}
-\citation{popiolek2006numerical}
 \citation{elman2005finite}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Left: pressure $p$ element, $\circ $ for degrees of $p$; right: four velocity $v$ elements, $\bullet $ for degrees of $v$.\relax }}{2}{figure.caption.1}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{fig::p-v}{{1}{2}{Left: pressure $p$ element, $\circ $ for degrees of $p$; right: four velocity $v$ elements, $\bullet $ for degrees of $v$.\relax \relax }{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Governing Equation}{2}{section.2}}
+\newlabel{sec2}{{2}{2}{Governing Equation\relax }{section.2}{}}
+\newlabel{eq::NS}{{2.1}{2}{Governing Equation\relax }{equation.2.1}{}}
+\citation{bercovier1979error}
 \citation{li2005multi}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Governing Equation}{3}{section.2}}
-\newlabel{eq::NS}{{1}{3}{Governing Equation\relax }{equation.2.1}{}}
-\newlabel{eq::bc}{{2}{3}{Governing Equation\relax }{equation.2.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Data Structure}{3}{section.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Hierachy tree structure\relax }}{3}{figure.caption.2}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {One time uniform refined mesh}}}{3}{subfigure.2.1}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {its hierarchy tree}}}{3}{subfigure.2.2}}
-\newlabel{fig::hgrometrytree}{{2}{3}{Hierachy tree structure\relax \relax }{figure.caption.2}{}}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Make index between velocity elements and pressure elements\relax }}{4}{algorithm.1}}
-\newlabel{alg::index}{{1}{4}{Make index between velocity elements and pressure elements\relax \relax }{algorithm.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces $P_1\text  {iso}P_2P_1$ pair, pressure degrees of freedom are only stored in vertices marked by circles.\relax }}{3}{figure.caption.2}}
+\newlabel{fig::p1isop2p1}{{2}{3}{$P_1\text {iso}P_2P_1$ pair, pressure degrees of freedom are only stored in vertices marked by circles.\relax \relax }{figure.caption.2}{}}
+\newlabel{eq::bc}{{2.2}{3}{Governing Equation\relax }{equation.2.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Illustration of the $4P_1-P_1$ element}{3}{section.3}}
+\newlabel{sec3}{{3}{3}{Illustration of the $4P_1-P_1$ element\relax }{section.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Hierarchy tree structure\relax }}{3}{figure.caption.3}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {One time uniform refined mesh}}}{3}{subfigure.3.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {its hierarchy tree}}}{3}{subfigure.3.2}}
+\newlabel{fig::hgrometrytree}{{3}{3}{Hierarchy tree structure\relax \relax }{figure.caption.3}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {3.1}{\ignorespaces Make index between velocity elements and pressure elements\relax }}{4}{algorithm.3.1}}
+\newlabel{alg::index}{{3.1}{4}{Make index between velocity elements and pressure elements\relax \relax }{algorithm.3.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Finite Element Approximation}{4}{section.4}}
-\newlabel{eq::generalweak_momentum}{{6}{4}{Finite Element Approximation\relax }{equation.4.6}{}}
-\newlabel{eq::generalweak_mass}{{7}{4}{Finite Element Approximation\relax }{equation.4.6}{}}
-\newlabel{eq::discreted_weak}{{8}{5}{Finite Element Approximation\relax }{equation.4.8}{}}
-\newlabel{eq::linear_system}{{9}{5}{Finite Element Approximation\relax }{equation.4.9}{}}
+\newlabel{sec4}{{4}{4}{Finite Element Approximation\relax }{section.4}{}}
+\newlabel{eq::NS_weakform}{{4.4}{4}{Finite Element Approximation\relax }{equation.4.3}{}}
+\newlabel{eq::discreted_weak}{{4.5}{4}{Finite Element Approximation\relax }{equation.4.5}{}}
+\newlabel{eq::solutions_components_NS}{{4.6}{5}{Finite Element Approximation\relax }{equation.4.6}{}}
+\newlabel{eq::linear_system}{{4.7}{5}{Finite Element Approximation\relax }{equation.4.7}{}}
+\newlabel{eq::element_matrix}{{4.10}{5}{Finite Element Approximation\relax }{equation.4.10}{}}
 \citation{elman2005finite}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Left: $p$ element; right: four velocity $v$ elements corresponding to $p$ element by the index built last section.\relax }}{6}{figure.caption.3}}
-\newlabel{fig::matrix_assemble}{{3}{6}{Left: $p$ element; right: four velocity $v$ elements corresponding to $p$ element by the index built last section.\relax \relax }{figure.caption.3}{}}
-\newlabel{eq::element_matrix}{{13}{6}{Finite Element Approximation\relax }{equation.4.13}{}}
-\newlabel{eq::linear_system_stokes}{{14}{6}{Finite Element Approximation\relax }{equation.4.14}{}}
+\citation{elman2005finite}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Left: the k-th pressure element $p_k$; right: four velocity elements corresponding to $p_k$.\relax }}{6}{figure.caption.4}}
+\newlabel{fig::matrix_assemble}{{4}{6}{Left: the k-th pressure element $p_k$; right: four velocity elements corresponding to $p_k$.\relax \relax }{figure.caption.4}{}}
+\newlabel{eq::linear_system_stokes}{{4.11}{6}{Finite Element Approximation\relax }{equation.4.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Precondition strategy}{6}{section.5}}
+\newlabel{sec5}{{5}{6}{Precondition strategy\relax }{section.5}{}}
 \citation{di2005moving}
-\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Moving mesh FEM for Navier Stokes equation\relax }}{7}{algorithm.2}}
-\newlabel{state::monitor}{{3}{7}{Moving mesh FEM for Navier Stokes equation\relax \relax }{algorithm.2}{}}
-\newlabel{state::start}{{5}{7}{Moving mesh FEM for Navier Stokes equation\relax \relax }{algorithm.2}{}}
-\newlabel{state::end}{{8}{7}{Moving mesh FEM for Navier Stokes equation\relax \relax }{algorithm.2}{}}
-\newlabel{alg::solve}{{2}{7}{Moving mesh FEM for Navier Stokes equation\relax \relax }{algorithm.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Precondition strategy}{7}{section.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}AMG precondition for steady stokes equations}{7}{subsection.5.1}}
-\citation{di2005moving}
-\citation{cao1999anr}
 \citation{li2001mesh}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Moving mesh Stategy}{8}{section.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Step 1 Obtain monitor function}{8}{subsection.6.1}}
-\newlabel{eq::monitor_vorticity}{{17}{8}{Step 1 Obtain monitor function\relax }{equation.6.17}{}}
-\newlabel{eq::monitor_gradient}{{18}{8}{Step 1 Obtain monitor function\relax }{equation.6.18}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Step 2 Get a new logical mesh}{8}{subsection.6.2}}
-\newlabel{eq::logical}{{19}{8}{Step 2 Get a new logical mesh\relax }{equation.6.19}{}}
-\newlabel{eq::EL_boundary}{{20}{8}{Step 2 Get a new logical mesh\relax }{equation.6.20}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Step 3 Achieve mesh move direction in physical domain}{8}{subsection.6.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Moving mesh Stategy}{7}{section.6}}
+\newlabel{sec6}{{6}{7}{Moving mesh Stategy\relax }{section.6}{}}
+\newlabel{eq::monitor_vorticity}{{6.1}{7}{Moving mesh Stategy\relax }{equation.6.1}{}}
+\newlabel{eq::monitor_gradient}{{6.2}{7}{Moving mesh Stategy\relax }{equation.6.2}{}}
+\newlabel{eq::logical}{{6.4}{7}{Moving mesh Stategy\relax }{equation.6.3}{}}
 \citation{di2005moving}
 \citation{di2005moving}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Step 4 Eusure the incompressible constraint interpolation}{9}{subsection.6.4}}
-\newlabel{eq::continous_update}{{25}{9}{Step 4 Eusure the incompressible constraint interpolation\relax }{equation.6.24}{}}
 \citation{di2005moving}
-\citation{zheng2010posteriori}
-\newlabel{eq::discreted_update}{{26}{10}{Step 4 Eusure the incompressible constraint interpolation\relax }{equation.6.26}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Numerical Tests}{10}{section.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Jetting flow into a static field}{10}{subsection.7.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Navier-Stokes flow over a step}{10}{subsection.7.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Jetting flow: top: mesh, bottom: vorticity contour at t = 12s.\relax }}{11}{figure.caption.4}}
-\newlabel{fig::jetting_flow_mesht12s}{{4}{11}{\small Jetting flow: top: mesh, bottom: vorticity contour at t = 12s.\relax \relax }{figure.caption.4}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Jetting flow: top: mesh, bottom: vorticity contour at t = 27s.\relax }}{12}{figure.caption.5}}
-\newlabel{fig::jetting_flow_mesht27s}{{5}{12}{\small Jetting flow: top: mesh, bottom: vorticity contour at t = 27s.\relax \relax }{figure.caption.5}{}}
+\newlabel{eq::continous_update}{{6.8}{8}{Moving mesh Stategy\relax }{equation.6.7}{}}
+\newlabel{eq::discreted_update}{{6.9}{8}{Moving mesh Stategy\relax }{equation.6.9}{}}
+\citation{bercovier1979error}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {6.1}{\ignorespaces Moving mesh FEM for Navier-Stokes equations\relax }}{9}{algorithm.6.1}}
+\newlabel{state::monitor}{{3}{9}{Moving mesh FEM for Navier-Stokes equations\relax \relax }{algorithm.6.1}{}}
+\newlabel{state::start}{{5}{9}{Moving mesh FEM for Navier-Stokes equations\relax \relax }{algorithm.6.1}{}}
+\newlabel{state::end}{{8}{9}{Moving mesh FEM for Navier-Stokes equations\relax \relax }{algorithm.6.1}{}}
+\newlabel{alg::solve}{{6.1}{9}{Moving mesh FEM for Navier-Stokes equations\relax \relax }{algorithm.6.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Numerical Tests}{9}{section.7}}
+\newlabel{sec7}{{7}{9}{Numerical Tests\relax }{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Accuracy test}{9}{subsection.7.1}}
+\newlabel{eq::accuracy_solution}{{7.2}{9}{Accuracy test\relax }{equation.7.1}{}}
+\citation{zheng2010adaptive}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Accuracy test: The convergence order of $Error_u$ and $Error_p$ with mesh refinement.\relax }}{10}{figure.caption.5}}
+\newlabel{fig::convergence_order}{{5}{10}{Accuracy test: The convergence order of $Error_u$ and $Error_p$ with mesh refinement.\relax \relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Accuracy test: Moving mesh (left), pressure contour (right).\relax }}{11}{figure.caption.6}}
+\newlabel{fig::accuracy_mesh}{{6}{11}{\small Accuracy test: Moving mesh (left), pressure contour (right).\relax \relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Navier-Stokes flow over a step}{11}{subsection.7.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Top: moving mesh; bottom: contour of vorticity.\relax }}{11}{figure.caption.7}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {t = 1}}}{11}{subfigure.7.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {t = 3}}}{11}{subfigure.7.2}}
+\newlabel{fig::step_flow_3s}{{7}{11}{\small Top: moving mesh; bottom: contour of vorticity.\relax \relax }{figure.caption.7}{}}
 \citation{cao1999anr}
 \citation{cao1999anr}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Up: Initial uniform mesh; bottom: initial moving mesh.\relax }}{13}{figure.caption.6}}
-\newlabel{fig::step_initial_mesh}{{6}{13}{\small Up: Initial uniform mesh; bottom: initial moving mesh.\relax \relax }{figure.caption.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Flow over cylinder}{13}{subsection.7.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Up: moving mesh; bottom: contour of vorticity at t = 0.5s\relax }}{14}{figure.caption.7}}
-\newlabel{fig::step_flow_05s}{{7}{14}{\small Up: moving mesh; bottom: contour of vorticity at t = 0.5s\relax \relax }{figure.caption.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Up: moving mesh; bottom: contour of vorticity at t = 1s\relax }}{14}{figure.caption.8}}
-\newlabel{fig::step_flow_1s}{{8}{14}{\small Up: moving mesh; bottom: contour of vorticity at t = 1s\relax \relax }{figure.caption.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Up: moving mesh; bottom: contour of vorticity at t = 1.5s\relax }}{15}{figure.caption.9}}
-\newlabel{fig::step_flow_1_5s}{{9}{15}{\small Up: moving mesh; bottom: contour of vorticity at t = 1.5s\relax \relax }{figure.caption.9}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Up: moving mesh; bottom: contour of vorticity at t = 2s\relax }}{15}{figure.caption.10}}
-\newlabel{fig::step_flow_2s}{{10}{15}{\small Up: moving mesh; bottom: contour of vorticity at t = 2s\relax \relax }{figure.caption.10}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Up: Pressure contour; bottom: velocity streamline at t = 2s\relax }}{16}{figure.caption.11}}
-\newlabel{fig::step_flow_contour_streamline_2s}{{11}{16}{\small Up: Pressure contour; bottom: velocity streamline at t = 2s\relax \relax }{figure.caption.11}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Up: uniform mesh; bottom: initial moving mesh, viscosity $\nu = 0.003$.\relax }}{16}{figure.caption.12}}
-\newlabel{fig::cylinder_initial_mesh}{{12}{16}{\small Up: uniform mesh; bottom: initial moving mesh, viscosity $\nu = 0.003$.\relax \relax }{figure.caption.12}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Up: moving mesh; bottom: vorticity contour at $t = 24.5s$, viscosity $\nu = 0.003$.\relax }}{17}{figure.caption.13}}
-\newlabel{fig::cylinder_mesh_t24_5s}{{13}{17}{\small Up: moving mesh; bottom: vorticity contour at $t = 24.5s$, viscosity $\nu = 0.003$.\relax \relax }{figure.caption.13}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Up: moving mesh; bottom: vorticity contour at $t = 23s$, viscosity $\nu = 0.001$.\relax }}{17}{figure.caption.14}}
-\newlabel{fig::cylinder_mesh_t23s}{{14}{17}{\small Up: moving mesh; bottom: vorticity contour at $t = 23s$, viscosity $\nu = 0.001$.\relax \relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Top: moving mesh; bottom: contour of vorticity.\relax }}{12}{figure.caption.8}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {t = 7}}}{12}{subfigure.8.1}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {t = 20}}}{12}{subfigure.8.2}}
+\newlabel{fig::step_flow_20s}{{8}{12}{\small Top: moving mesh; bottom: contour of vorticity.\relax \relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Pressure contour: moving mesh (top); uniform mesh (bottom) at t = 20.\relax }}{12}{figure.caption.9}}
+\newlabel{fig::step_flow_pressure_contour_20s}{{9}{12}{\small Pressure contour: moving mesh (top); uniform mesh (bottom) at t = 20.\relax \relax }{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Flow over cylinder}{12}{subsection.7.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Initial moving mesh, $Re = 300$.\relax }}{13}{figure.caption.10}}
+\newlabel{fig::cylinder_initial_mesh}{{10}{13}{\small Initial moving mesh, $Re = 300$.\relax \relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Top: moving mesh; bottom: vorticity contour at $t = 24.5$, $Re = 300$.\relax }}{13}{figure.caption.11}}
+\newlabel{fig::cylinder_mesh_t24_5s}{{11}{13}{\small Top: moving mesh; bottom: vorticity contour at $t = 24.5$, $Re = 300$.\relax \relax }{figure.caption.11}{}}
 \bibstyle{unsrt}
 \bibdata{mathpaper}
-\bibcite{taylor1974navier}{1}
-\bibcite{li2009performance}{2}
-\bibcite{bochev2006stabilization}{3}
+\bibcite{li2009performance}{1}
+\bibcite{bochev2006stabilization}{2}
+\bibcite{popiolek2006numerical}{3}
 \bibcite{danaila2014newton}{4}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Top: vorticity streamline at $t = 24.5$, $Re = 300$.\relax }}{14}{figure.caption.12}}
+\newlabel{fig::cylinder_streamline_t24_5s}{{12}{14}{\small Top: vorticity streamline at $t = 24.5$, $Re = 300$.\relax \relax }{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Remarks}{14}{section.8}}
+\newlabel{sec8}{{8}{14}{Remarks\relax }{section.8}{}}
 \bibcite{ebeida2009unsteady}{5}
 \bibcite{berrone2009space}{6}
 \bibcite{zheng2010posteriori}{7}
-\@writefile{toc}{\contentsline {section}{\numberline {8}Remarks}{18}{section.8}}
 \bibcite{di2005moving}{8}
-\bibcite{vanden2009kinetic}{9}
-\bibcite{fujima1998iso}{10}
-\bibcite{bercovier1979error}{11}
+\bibcite{fujima1998iso}{9}
+\bibcite{bercovier1979error}{10}
+\bibcite{vanden2009kinetic}{11}
 \bibcite{li2005multi}{12}
 \bibcite{Winslow1966NUMERICAL}{13}
 \bibcite{dvinsky1991adaptive}{14}
 \bibcite{cao1999anr}{15}
 \bibcite{li2001mesh}{16}
-\bibcite{popiolek2006numerical}{17}
-\bibcite{elman2005finite}{18}
+\bibcite{elman2005finite}{17}
+\bibcite{zheng2010adaptive}{18}
+\newlabel{LastPage}{{}{15}}

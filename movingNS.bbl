@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{taylor1974navier}
-C~Taylor and P~Hood.
-\newblock Navier-stokes equation using mixed interpolation. finite element
-  method in flow problems oden editor, 1974.
-
 \bibitem{li2009performance}
 Jian Li, Yinnian He, and Zhangxin Chen.
 \newblock Performance of several stabilized finite element methods for the
@@ -16,6 +11,12 @@ Pavel~B Bochev, Clark~R Dohrmann, and Max~D Gunzburger.
 \newblock Stabilization of low-order mixed finite elements for the stokes
   equations.
 \newblock {\em SIAM Journal on Numerical Analysis}, 44(1):82--101, 2006.
+
+\bibitem{popiolek2006numerical}
+TL~Popiolek and AM~Awruch.
+\newblock Numerical simulation of incompressible flows using adaptive
+  unstructured meshes and the pseudo-compressibility hypothesis.
+\newblock {\em Advances in Engineering Software}, 37(4):260--274, 2006.
 
 \bibitem{danaila2014newton}
 Ionut Danaila, Raluca Moglan, Fr{\'e}d{\'e}ric Hecht, and St{\'e}phane
@@ -48,13 +49,6 @@ Yana Di, Ruo Li, Tao Tang, and Pingwen Zhang.
   navier--stokes equations.
 \newblock {\em SIAM Journal on Scientific Computing}, 26(3):1036--1056, 2005.
 
-\bibitem{vanden2009kinetic}
-David Vanden-Abeele, Deryl Snyder, Yves Detandt, and G{\'e}rard Degrez.
-\newblock A kinetic energy-preserving p1 iso p2/p1 finite-element method for
-  computing unsteady incompressible flows.
-\newblock In {\em Computational Fluid Dynamics 2006}, pages 267--272. Springer,
-  2009.
-
 \bibitem{fujima1998iso}
 Shoichi Fujima.
 \newblock Iso-p2 p1/p1/p1 domain-decomposition/finite-element method for the
@@ -66,6 +60,13 @@ Michel Bercovier and Olivier Pironneau.
 \newblock Error estimates for finite element method solution of the stokes
   problem in the primitive variables.
 \newblock {\em Numerische Mathematik}, 33(2):211--224, 1979.
+
+\bibitem{vanden2009kinetic}
+David Vanden-Abeele, Deryl Snyder, Yves Detandt, and G{\'e}rard Degrez.
+\newblock A kinetic energy-preserving p1 iso p2/p1 finite-element method for
+  computing unsteady incompressible flows.
+\newblock In {\em Computational Fluid Dynamics 2006}, pages 267--272. Springer,
+  2009.
 
 \bibitem{li2005multi}
 Ruo Li.
@@ -93,17 +94,17 @@ Weiming Cao, Weizhang Huang, and Robert~D Russell.
 R.~Li, W.~Liu, T.~Tang, and P.~Zhang.
 \newblock Moving mesh finite element methods based on harmonic maps, 2001.
 
-\bibitem{popiolek2006numerical}
-TL~Popiolek and AM~Awruch.
-\newblock Numerical simulation of incompressible flows using adaptive
-  unstructured meshes and the pseudo-compressibility hypothesis.
-\newblock {\em Advances in Engineering Software}, 37(4):260--274, 2006.
-
 \bibitem{elman2005finite}
 Howard~C Elman, David~J Silvester, and Andrew~J Wathen.
 \newblock {\em Finite Elements and Fast Iterative Solvers: with Applications in
   Incompressible Fluid Dynamics: with Applications in Incompressible Fluid
   Dynamics}.
 \newblock Oxford University Press, 2005.
+
+\bibitem{zheng2010adaptive}
+Haibiao Zheng, Yanren Hou, and Feng Shi.
+\newblock Adaptive variational multiscale methods for incompressible flow based
+  on two local gauss integrations.
+\newblock {\em Journal of Computational Physics}, 229(19):7030--7041, 2010.
 
 \end{thebibliography}
